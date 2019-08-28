@@ -1,13 +1,13 @@
 package core;
 
 import lib.annotation.Controller;
-import lib.annotation.RequestMapping;
+import lib.annotation.Path;
 
 @Controller
-@RequestMapping("/home")
+@Path("/home")
 public class HomeController {
 
-    @RequestMapping({"/", "/index"})
+    @Path({"/", "/index"})
     public String home() {
         return "index.jsp";
     }

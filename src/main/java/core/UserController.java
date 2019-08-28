@@ -1,9 +1,9 @@
 package core;
 
 import lib.annotation.Controller;
-import lib.annotation.RequestMapping;
+import lib.annotation.Path;
 
 @Controller
-@RequestMapping("/user")
+@Path("/user")
 public class UserController {
 }
